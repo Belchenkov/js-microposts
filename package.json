@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
     "start": "webpack-dev-server --output-public-path=/build/",
-    "json:server": "json-server --watch api/db.json"
+    "json:server": "json-server --watch api/db.json --port 3010"
   },
   "author": "Aleksey Belchenkov",
   "license": "MIT",

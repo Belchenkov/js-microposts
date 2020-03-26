@@ -8,6 +8,10 @@
  **/
 
 class EasyHTTP {
+  constructor() {
+    this.url = 'http://localhost:3010/posts';
+  }
+
   // Make an HTTP GET Request 
   async get(url) {
     const response = await fetch(url);
