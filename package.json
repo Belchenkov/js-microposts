@@ -1,14 +1,15 @@
 {
-  "name": "babel_webpack_starter",
+  "name": "microposts_project",
   "version": "1.0.0",
-  "description": "Starter pack for compiling ES6+ apps to ES5",
+  "description": "CRUD Front End (Webpack  Babel)",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
-    "start": "webpack-dev-server --output-public-path=/build/"
+    "start": "webpack-dev-server --output-public-path=/build/",
+    "json:server": "json-server --watch api/db.json --port 3010"
   },
-  "author": "Brad Traversy",
+  "author": "Aleksey Belchenkov",
   "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.26.0",
@@ -18,5 +19,8 @@
     "babel-preset-stage-0": "^6.24.1",
     "webpack": "^3.8.1",
     "webpack-dev-server": "^2.9.4"
+  },
+  "dependencies": {
+    "json-server": "^0.16.1"
   }
 }
