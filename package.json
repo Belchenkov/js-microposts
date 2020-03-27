@@ -1,5 +1,5 @@
 {
-  "name": "babel_webpack_starter",
+  "name": "microposts_project",
   "version": "1.0.0",
   "description": "CRUD Front End (Webpack  Babel)",
   "main": "app.js",
